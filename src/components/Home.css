@@ -1,3 +1,41 @@
 .home{
     position: relative;
 }
+
+.quoteBox{
+    text-align: center;
+    margin-top: 5rem; 
+}
+
+.quote{
+    color: #8A8A8A;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: 3rem;
+
+
+}
+
+.buttonBox{
+    margin: 5em 3em;
+/*span it's an inline element which takes up margins horizontally only. Change to div*/
+    
+}
+
+.filterButton{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8A8A8A;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-radius: 4px;
+    box-shadow: 1.5px 2px #2f3437;
+    line-height: 4px;
+}
+
+
+button { /*reset*/
+    border-style: none;
+    margin-left: 2em;
+}

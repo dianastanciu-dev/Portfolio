@@ -15,12 +15,12 @@ function App() {
 <Router>
       <div>
         <nav>
-          <ul>
+          <ul className="listMenu">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className="homeMenu">Home</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" className="contactMenu">Contact</Link>
             </li>
            
           </ul>

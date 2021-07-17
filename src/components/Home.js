@@ -32,14 +32,26 @@ function Home() {
   return (
 
     <div className="home">
-        <h1>Home</h1>
-        <button onClick={()=>filteredItems('HTML-CSS') }>HTML, CSS</button>
+        <div className="quoteBox">
+        <h1 className="quote">Roses are red,</h1>
+        <h1 className="quote">violets are blue,</h1>
+        <h1 className="quote">unexpected {'{'}</h1>
+        <h1 className="quote">on line 32</h1>
+        </div>
+
+        <div className="buttonBox">
+        
+        <button onClick={()=>filteredItems('HTML-CSS')} className="filterButton">HTML, CSS</button>
+        
         {/*cu arrow function rulam functia filteredItems cand se face click, nu la incarcarea paginii */}
-        <button onClick={()=>filteredItems('Javascript') }>Javascript</button>
+        
+        <button onClick={()=>filteredItems('Javascript')} className="filterButton">Javascript</button>
 
-        <button onClick={()=>filteredItems() }>All</button>
+        <button onClick={()=>filteredItems() } className="filterButton">All</button>
+        </div>
+       
+
         <ul>
-
          {items.map((item)=>{ //afisam lista filtrata sau nefiltrata formatata cu html 
              return( <li>
                  {item.name}
