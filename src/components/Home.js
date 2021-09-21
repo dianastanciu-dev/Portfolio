@@ -1,16 +1,10 @@
 import {useState} from 'react';
 import './Home.css';
-import img1 from '../assets/img/img1.jpg';
-import img2 from '../assets/img/img2.jpg';
-import img3 from '../assets/img/img3.jpg';
+import {defaultItems} from 'data/projects'
 
 function Home() {
 
-  const defaultItems=[
-  {image: img1, name: 'Proiect1', category: 'HTML-CSS', details: 'Lorem ipsum...'}, 
-  {image: img2, name: 'Proiect2', category: 'Javascript', details: 'Lorem ipsum...'}, 
-  {image: img3, name: 'Proiect3', category: 'Javascript', details: 'Lorem ipsum...'}
-]  
+                                                   
 
   const [items, setItems]= useState(defaultItems)  
 
@@ -86,6 +80,7 @@ $(window).scroll(function(){
                  <ul>
                    <li className="itemName">{item.name}</li>
                    <li className="itemDetails">{item.details}</li>
+                   <a className="itemDetails">{item.href}</a>
                  </ul>
                 
              </li>)

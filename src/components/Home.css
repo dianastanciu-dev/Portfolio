@@ -61,13 +61,20 @@ button { /*reset*/
 }
 
 img{
-    width: 45%;
+    width: 80%;
     height: auto;
-    margin-bottom: 10px;
+    margin: 0 auto 30px;
+    display: flex;
+
+
 }
 
 .listItems{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /*flex-direction: column;*/ /*row flex-direction default*/
 }
 
 ul{
