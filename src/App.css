@@ -24,34 +24,41 @@
   display: flex;
   flex-direction: row;
   align-items: center; /* y axis*/
-  justify-content: center; /* x axis */ 
+  justify-content: right; /* x axis */ 
+  margin-right: 100px;
   margin-top: 6rem;
 }
 
 .contactMenu{
-   
    padding: 10px 20px;
-   text-transform: uppercase;
+   /*text-transform: uppercase;*/
+   text-transform: lowercase;
    text-decoration: none;
    color: #8A8A8A;
    font-weight: 500;
-   font-size: 0.9em;
+   /*font-size: 0.9em;*/
+   font-size: 1.2em;
    border-radius: 4px;
-   box-shadow: 1.5px 2px #2f3437;
+   /*box-shadow: 1.5px 2px #2f3437;*/
+   box-shadow: 0px;
    line-height: 4px;
-   
+
   }
+
 
 .homeMenu{
    margin-right: 2rem;
    padding: 10px 20px; 
-   text-transform: uppercase;
+   /*text-transform: uppercase;*/
+   text-transform: lowercase;
    text-decoration: none;
    color: #8A8A8A;
    font-weight: 500;
-   font-size: 0.9em;
+   /*font-size: 0.9em;*/
+   font-size: 1.2em;
    border-radius: 4px;
-   box-shadow: 1.5px 2px #2f3437;
+   /*box-shadow: 1.5px 2px #2f3437;*/
+   box-shadow: 0px;
    line-height: 4px;
   }
 
