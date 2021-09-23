@@ -1,4 +1,5 @@
-import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import './App.css';
 import {
@@ -17,12 +18,14 @@ function App() {
         <nav>
           <ul className="listMenu">
             <li>
-              <Link to="/" className="homeMenu">Home</Link>
+              <Link to="/" className="aboutmeMenu">about me</Link>
             </li>
             <li>
-              <Link to="/contact" className="contactMenu">Contact</Link>
+              <Link to="/portfolio" className="portfolioMenu">portfolio</Link>
             </li>
-           
+            <li>
+              <Link to="/contact" className="contactMenu">contact</Link>
+            </li>
           </ul>
         </nav>
 
@@ -33,8 +36,12 @@ function App() {
             <Contact />
           </Route>
         
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+
           <Route path="/">
-            <Home />
+            <AboutMe />
           </Route>
         </Switch>
       </div>

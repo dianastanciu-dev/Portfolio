@@ -46,7 +46,7 @@
   }
 
 
-.homeMenu{
+.aboutmeMenu{
    margin-right: 2rem;
    padding: 10px 20px; 
    /*text-transform: uppercase;*/
@@ -62,5 +62,19 @@
    line-height: 4px;
   }
 
-
+.portfolioMenu{
+  margin-right: 2rem;
+  padding: 10px 20px; 
+  /*text-transform: uppercase;*/
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #8A8A8A;
+  font-weight: 500;
+  /*font-size: 0.9em;*/
+  font-size: 1.2em;
+  border-radius: 4px;
+  /*box-shadow: 1.5px 2px #2f3437;*/
+  box-shadow: 0px;
+  line-height: 4px;
+}
 

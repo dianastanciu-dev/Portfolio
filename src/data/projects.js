@@ -2,7 +2,7 @@ import img1 from '../assets/img/img1.jpg';
 import img2 from '../assets/img/img2.png';
 import img3 from '../assets/img/img3.jpg';
 
-let link2="easystaff.epizy.com";
+let link2="http://easystaff.epizy.com";
  
  export const defaultItems=[
     {image: img1, name: 'Proiect1', category: 'HTML-CSS', details: 'Lorem ipsum...'}, 
